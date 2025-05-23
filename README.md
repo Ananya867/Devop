@@ -8,6 +8,8 @@ in cmd:  ansible -i hosts local -m ping
 
 Create a new YAML file:
 nano install_nginx.yml
+
+
 Add the following content:
 -name: Install and start NGINX on localhost
 hosts: local
