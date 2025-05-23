@@ -40,4 +40,4 @@ This command will install Nginx on your localhost. You may see output indicating
 Verifying the Installation
 To verify that Nginx is running, open your web browser and navigate to:
 
-http://localhost
+curl http://localhost
